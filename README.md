@@ -1,7 +1,7 @@
 # FriendRecommender
 friendrecommendations.com
 
-This is the repository for the friendrecommendations.com
+This is the repository for the http://friendrecommendations.com
 
 Crawl: 1st version of crawling method
 
