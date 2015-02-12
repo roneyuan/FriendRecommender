@@ -1,0 +1,5 @@
+1. put the loading page
+2. optimize the website: 
+a. fix the age problem from makeDictionary which cause unable to find the people who have more than age attribute.
+b. speed up by using different algorithm. Put in the arry first and analyze it
+3. make filter

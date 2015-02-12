@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Recommendation</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">	
+	.top {
+		width: 700px;
+		height: 300px;
+		margin: 10px auto 10px auto;
+		text-align: left;
+		background-image: url(top.jpg);
+	}
+	
+	.box {
+		border:1px solid grey;
+		background-color:#D3D3D3;
+	}
+
+	</style>
+</head>
+
+<body>
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand"> Welcome to the FriendRecommender ! </a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			
+			
+			</div>
+			
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="home.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="project.html">Project Description</a></li>
+					<li><a href="SelectGender">Demo</a></li>
+				</ul>
+			
+			</div>
+		</div>
+	</div>
+
+	<div class = "top"></div>
+
+	<div class = "container">
+	
+		<h1>Big data is the future of the world. We created friendrecommendations.com to implement the applications of Big data. Our website is focused on matching users to friends from Craigslist's database. Each match is based on users' personal preferences. Other sources of data and recommendations will be available soon.</h1>
+	
+	</div>
+	<div class="container">	
+		<div class="fb-like" data-href="http://friendrecommendations.com/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<div id="fb-root"></div>
+<script>
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1495984630617535&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+</div>
